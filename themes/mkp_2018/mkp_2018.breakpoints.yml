@@ -1,0 +1,18 @@
+mkp_2018.screen-sm-min:
+  label: screen-sm-min
+  mediaQuery: 'all and (min-width: 768px)'
+  weight: 1
+  multipliers:
+    - 1x
+mkp_2018.screen-md-min:
+  label: screen-md-min
+  mediaQuery: 'all and (min-width: 992px)'
+  weight: 1
+  multipliers:
+    - 1x
+mkp_2018.screen-lg-min:
+  label: screen-lg-min
+  mediaQuery: 'all and (min-width: 1200px)'
+  weight: 1
+  multipliers:
+    - 1x
