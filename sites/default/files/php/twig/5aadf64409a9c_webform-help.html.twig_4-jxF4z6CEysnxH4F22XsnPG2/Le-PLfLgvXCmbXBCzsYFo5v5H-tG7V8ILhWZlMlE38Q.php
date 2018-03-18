@@ -1,7 +1,7 @@
 <?php
 
-/* modules/contributed/webform/templates/webform-help.html.twig */
-class __TwigTemplate_80446bc4e3ba210eff676148f680a1d839b486eb924971b2f6cea1f0820d1bbf extends Twig_Template
+/* modules/contrib/webform/templates/webform-help.html.twig */
+class __TwigTemplate_8582748a678a11ad8a7f03cc6dfb087a03819aaaee3e268bc7f405cf5864a82b extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -51,7 +51,7 @@ class __TwigTemplate_80446bc4e3ba210eff676148f680a1d839b486eb924971b2f6cea1f0820
 
     public function getTemplateName()
     {
-        return "modules/contributed/webform/templates/webform-help.html.twig";
+        return "modules/contrib/webform/templates/webform-help.html.twig";
     }
 
     public function isTraitable()
@@ -74,6 +74,6 @@ class __TwigTemplate_80446bc4e3ba210eff676148f680a1d839b486eb924971b2f6cea1f0820
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "modules/contributed/webform/templates/webform-help.html.twig", "C:\\wamp64\\www\\mkpteam\\dev.mkpteam.com\\modules\\contributed\\webform\\templates\\webform-help.html.twig");
+        return new Twig_Source("", "modules/contrib/webform/templates/webform-help.html.twig", "C:\\wamp64\\www\\mkpteam\\dev.mkpteam.com\\modules\\contrib\\webform\\templates\\webform-help.html.twig");
     }
 }

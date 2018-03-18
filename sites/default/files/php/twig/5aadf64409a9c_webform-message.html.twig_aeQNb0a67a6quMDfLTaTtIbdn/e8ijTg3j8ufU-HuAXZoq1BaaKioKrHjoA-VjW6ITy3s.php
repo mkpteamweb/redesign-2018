@@ -1,7 +1,7 @@
 <?php
 
-/* core/themes/classy/templates/field/image.html.twig */
-class __TwigTemplate_6fbae3c3c76c6d99529efb803e947713d568e2bf5bd269209d70febe90aad445 extends Twig_Template
+/* modules/contrib/webform/templates/webform-message.html.twig */
+class __TwigTemplate_355329d5e1f6fbc23c3ccef5ce2e1c8486aa9a2624ca8f0a3cf581ee07a6f01f extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -15,14 +15,14 @@ class __TwigTemplate_6fbae3c3c76c6d99529efb803e947713d568e2bf5bd269209d70febe90a
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $tags = array("set" => 14);
-        $filters = array("clean_class" => 15);
+        $tags = array("set" => 20, "if" => 25);
+        $filters = array();
         $functions = array();
 
         try {
             $this->env->getExtension('Twig_Extension_Sandbox')->checkSecurity(
-                array('set'),
-                array('clean_class'),
+                array('set', 'if'),
+                array(),
                 array()
             );
         } catch (Twig_Sandbox_SecurityError $e) {
@@ -39,19 +39,25 @@ class __TwigTemplate_6fbae3c3c76c6d99529efb803e947713d568e2bf5bd269209d70febe90a
             throw $e;
         }
 
-        // line 14
-        $context["classes"] = array(0 => ((        // line 15
-($context["style_name"] ?? null)) ? (("image-style-" . \Drupal\Component\Utility\Html::getClass(($context["style_name"] ?? null)))) : ("")));
-        // line 18
-        echo "<img";
-        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["attributes"] ?? null), "addClass", array(0 => ($context["classes"] ?? null)), "method"), "html", null, true));
-        echo " />
+        // line 20
+        $context["classes"] = array(0 => ((        // line 21
+($context["has_parent"] ?? null)) ? ("js-form-wrapper") : ("")), 1 => ((        // line 22
+($context["has_parent"] ?? null)) ? ("form-wrapper") : ("")));
+        // line 25
+        if ( !($context["closed"] ?? null)) {
+            // line 26
+            echo "<div";
+            echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["attributes"] ?? null), "addClass", array(0 => ($context["classes"] ?? null)), "method"), "html", null, true));
+            echo ">";
+            echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["message"] ?? null), "html", null, true));
+            echo "</div>
 ";
+        }
     }
 
     public function getTemplateName()
     {
-        return "core/themes/classy/templates/field/image.html.twig";
+        return "modules/contrib/webform/templates/webform-message.html.twig";
     }
 
     public function isTraitable()
@@ -61,7 +67,7 @@ class __TwigTemplate_6fbae3c3c76c6d99529efb803e947713d568e2bf5bd269209d70febe90a
 
     public function getDebugInfo()
     {
-        return array (  46 => 18,  44 => 15,  43 => 14,);
+        return array (  49 => 26,  47 => 25,  45 => 22,  44 => 21,  43 => 20,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -74,6 +80,6 @@ class __TwigTemplate_6fbae3c3c76c6d99529efb803e947713d568e2bf5bd269209d70febe90a
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "core/themes/classy/templates/field/image.html.twig", "C:\\wamp64\\www\\mkpteam\\dev.mkpteam.com\\core\\themes\\classy\\templates\\field\\image.html.twig");
+        return new Twig_Source("", "modules/contrib/webform/templates/webform-message.html.twig", "C:\\wamp64\\www\\mkpteam\\dev.mkpteam.com\\modules\\contrib\\webform\\templates\\webform-message.html.twig");
     }
 }
