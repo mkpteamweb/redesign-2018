@@ -1,0 +1,23 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    paragraph.field_background_image.value ? 'paragraph--background-image' : '',
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+  ]
+%}
+
+{% block paragraph %}
+  {% block content %}
+    <div class="hero-wrapper" {% if content.field_hero_background_image[0] %} style="background-image:url('{{ content.field_hero_background_image[0] }}'); "{% endif %}>
+      <div class="hero-inner-wrapper">
+        <div class="paragraph-wrapper">
+          {{ content.field_hero_title }}
+          {{ content.field_hero_subtitle }}
+          {{ content.field_hero_descriptive_text }}
+          {{ content.field_hero_call_to_action }}
+        </div>
+      </div>
+    </div>
+  {% endblock %}
+{% endblock paragraph %}

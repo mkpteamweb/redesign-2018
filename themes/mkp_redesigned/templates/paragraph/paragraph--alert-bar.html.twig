@@ -1,0 +1,14 @@
+{% if alert_bar.enabled %}
+  <div class="alert-bar">
+    ALERTS BE HERE!
+    <div class="container">
+      <div class="alert-bar__label">{{ alert_bar.label }} </div>
+      <div class="alert-bar__title">{{ alert_bar.title }} </div>
+      {% if alert_bar.link %}
+        <div class="alert-bar__link">
+          <a href="{{ alert_bar.link.url }}">{{ alert_bar.link.title }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}

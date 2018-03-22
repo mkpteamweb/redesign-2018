@@ -1,0 +1,90 @@
+/**
+ * Variables for use in the Interactives projects.
+ */
+
+/* Color palette */
+$color-white: #fff;
+$color-beige: #faf9f4;
+$color-black: #000000;
+$color-brick: #ad482b;
+$color-brown: #412c26;
+$color-dark-blue: #1e364d;
+$color-dark-grey: #766e6c;
+$color-faded-blue: #629ac2;
+$color-gold: #e4b262;
+$color-grey-blue: #9babac;
+$color-grey: #afacab;
+$color-grey-light: #ccc;
+$color-gunmetal: #4b535d;
+$color-light-grey: #e7e6e5;
+$color-light-mint: #f0f4f4;
+$color-terra-cotta: #bd5d38;
+$color-white: #ffffff;
+$color-white-two: #f9f9f9;
+$color-orange: #f25d27;
+$color-blue: #cbdce9;
+$color-marine: #04284a;
+$color-grayish: #a3a3a3;
+$color-greenish-light: #bfc87c;
+$color-olive: #99b882;
+$color-olive-light: #dbe5c4;
+$color-dark-grey: #333;
+
+
+$light-mint: #f0f4f4;
+$terra-cotta: #bd5d38;
+$brown: #412c26;
+$dark-grey: #766e6c;
+$dark-grey-2: #414141;
+$brick: #ad482b;
+$nav-border: #f0efef;
+
+// Spacing
+$margin-xs: 12px;
+$margin-sm: 15px;
+$margin-md: 30px;
+$margin-lg: 40px;
+
+// Fonts
+$opensans: 'OpenSans', sans-serif;
+$larsseit: 'Larsseit', sans-serif;
+$larsseit-light: 'Larsseit-Light', sans-serif;
+$lemonde: 'lemonde-journal', serif;
+$haarlemmer: 'Haarlemmer W04', 'Georgia', serif;
+
+// Breakpoints
+$bp-md: 990px;
+
+// Factoid styles
+$factoid-text-color: $color-gunmetal;
+$factoid-title-color: $color-dark-grey;
+$factoid-title-size: 60px;
+
+// Featured quotes
+$quote-color: $color-dark-grey;
+
+// Paragraph titles
+$paragraph-title-color: $color-dark-grey;
+$paragraph-title-font: $larsseit;
+$paragraph-title-line: 1.44;
+$paragraph-title-size: 48px;
+$paragraph-title-weight: 500;
+
+$paragraph-body-color: $color-gunmetal;
+$paragraph-body-font: $lemonde;
+$paragraph-body-line: 1.55;
+$paragraph-body-size: 16px;
+$paragraph-body-weight: 500;
+$paragraph-divider-color: rgba(155, 171, 172, 0.25);
+
+$element-title-color: $color-dark-grey;
+$element-title-font: $larsseit;
+$element-title-line: 1.88;
+$element-title-size: 24px;
+$element-title-weight: 400;
+
+$element-body-color: $color-gunmetal;
+$element-body-size: 16px;
+$element-body-font: $lemonde;
+$element-body-weight: normal;
+$element-body-line: 1.88;

@@ -1,0 +1,131 @@
+/*
+Error: Undefined variable: "$screen-md-min".
+        on line 8 of /Applications/MAMP/htdocs/mkpteam-redesign/themes/mkp_2018/scss/utilities/_breakpoints.scss, in `breakpoint'
+        from line 10 of /Applications/MAMP/htdocs/mkpteam-redesign/themes/mkp_2018/scss/components/_hero_section.scss
+        from line 17 of /Applications/MAMP/htdocs/mkpteam-redesign/themes/mkp_2018/scss/styles.scss
+
+3: To change this template file, choose Tools | Templates
+4: and open the template in the editor.
+5: *\/
+6: /* 
+7:     Created on : Mar 21, 2018, 12:17:22 AM
+8:     Author     : skywalker
+9: *\/
+10: 
+11: /* Utitilies for Styles *\/
+12: @import 'utilities/variables';
+13: @import 'utilities/breakpoints';
+
+Backtrace:
+/Applications/MAMP/htdocs/mkpteam-redesign/themes/mkp_2018/scss/utilities/_breakpoints.scss:8:in `breakpoint'
+/Applications/MAMP/htdocs/mkpteam-redesign/themes/mkp_2018/scss/components/_hero_section.scss:10
+/Applications/MAMP/htdocs/mkpteam-redesign/themes/mkp_2018/scss/styles.scss:17
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:542:in `block in run_interp_no_strip'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:540:in `map'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:540:in `run_interp_no_strip'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:547:in `run_interp'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:512:in `visit_media'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:301:in `block (2 levels) in visit_if'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:301:in `map'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:301:in `block in visit_if'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:300:in `visit_if'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:304:in `visit_if'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:366:in `block (4 levels) in visit_mixin'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:366:in `map'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:366:in `block (3 levels) in visit_mixin'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:366:in `block (2 levels) in visit_mixin'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:84:in `perform_arguments'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:361:in `block in visit_mixin'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:98:in `with_mixin'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `map'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `block in with_import'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `with_import'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:281:in `render'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:294:in `watch'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/Applications/MAMP/Library/lib/ruby/gems/2.3.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/Applications/MAMP/Library/bin/compass:22:in `load'
+/Applications/MAMP/Library/bin/compass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$screen-md-min\".\A         on line 8 of /Applications/MAMP/htdocs/mkpteam-redesign/themes/mkp_2018/scss/utilities/_breakpoints.scss, in `breakpoint'\A         from line 10 of /Applications/MAMP/htdocs/mkpteam-redesign/themes/mkp_2018/scss/components/_hero_section.scss\A         from line 17 of /Applications/MAMP/htdocs/mkpteam-redesign/themes/mkp_2018/scss/styles.scss\A \A 3: To change this template file, choose Tools | Templates\A 4: and open the template in the editor.\A 5: */\A 6: /* \A 7:     Created on : Mar 21, 2018, 12:17:22 AM\A 8:     Author     : skywalker\A 9: */\A 10: \A 11: /* Utitilies for Styles */\A 12: @import 'utilities/variables';\A 13: @import 'utilities/breakpoints';"; }

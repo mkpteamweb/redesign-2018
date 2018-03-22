@@ -783,6 +783,10 @@ $settings['entity_update_batch_size'] = 50;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+
+# Makes it so that themes can be debugged: Turn off for Prod!
+$conf['theme_debug'] = TRUE;
+
 $databases['default']['default'] = array (
   'database' => 'dev_mkpteam_db',
   'username' => 'bousley',
@@ -794,4 +798,5 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_A9hIeTzwZ6al8LQiF1mE9z9jOUj4vUXZ19aGKiPfwYhW92eCNtSI1Kmi1tR4WZpQem49Qr8S-w/sync';
+# OLD $config_directories['sync'] = 'sites/default/files/config_A9hIeTzwZ6al8LQiF1mE9z9jOUj4vUXZ19aGKiPfwYhW92eCNtSI1Kmi1tR4WZpQem49Qr8S-w/sync';
+$config_directories['sync'] = 'sites/default/config/sync';

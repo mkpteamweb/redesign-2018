@@ -1,0 +1,45 @@
+.top-full-wrapper {
+  background-size: cover;
+  background-position: 50% 50%;
+  color: $color-white;
+  width: 100vw;
+  margin-top: -15px;
+  min-height: 400px;
+  padding: 100px 15px 50px 15px;
+  position: relative;
+  left: calc(-50vw + 50%);
+  box-sizing: border-box;
+  text-align: center;
+  
+  &:after {
+    background: rgba(21,22,26,0.88);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+  
+  @include breakpoint(md) {
+    padding: 100px 30px 50px 30px;
+  }
+  
+  .container {
+    z-index: 5;
+    position: relative;
+  }
+  
+  h1.top-full-title {
+    color: $color-white;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  h2.top-full-subtitle {
+    color: $color-white;
+    font-size: 20px;
+    
+  }
+}

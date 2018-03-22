@@ -1,0 +1,249 @@
+/**
+ * Hero styling.
+ */
+
+.hero-wrapper {
+  background-size: cover;
+  background-position: 50% 50%;
+  color: $color-white;
+  padding: 100px 15px 50px 15px;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+  box-sizing: border-box;
+  text-align: center;
+  
+  @include breakpoint(md) {
+    padding: 100px 30px 50px 30px;
+  }
+  
+  .field--name-field-hero-title {
+    font-size: 30px;
+  }
+  
+  .field--name-field-hero-subtitle {
+    font-size: 20px;
+  }
+  
+  .field--name-field-hero-descriptive-text {
+    font-size: 14px;
+  }
+  
+  .field--name-field-hero-call-to-action {
+    font-weight: bold;
+  }
+
+  .paragraph-hero-background-image {
+    background-size: cover;
+    min-height: 400px;
+  }
+
+  .hero-top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    @include breakpoint(sm) {
+      flex-direction: row;
+    }
+    .paragraph-header {
+      flex: 1 1 0;
+    }
+    .hero-image {
+      flex: 1 1 0;
+      margin: 0 -30px;
+      @include breakpoint(sm) {
+        margin: 0 -15px 0 0;
+      }
+    }
+  }
+
+  .hero-footer {
+    width: 100%;
+    clear: both;
+    margin-top: 20px;
+    padding-top: 50px;
+
+    .field--name-field-optional-block-reference {
+      position: relative;
+      z-index: 2;
+      float: left;
+    }
+
+    .sponsor-logo {
+      float: right;
+      position: relative;
+      width: initial;
+      z-index: 99;
+
+      img {
+        float: right;
+      }
+    }
+  }
+
+  
+    .element-body {
+      font-family: $lemonde;
+      font-size: 16px;
+      line-height: 1.46;
+      margin: 15px auto;
+      @media screen and (min-width: $bp-md) {
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 30px auto;
+      }
+    }
+    .element-link {
+      /*z-index: 2;*/
+      a {
+        border: solid 1px $color-white;
+        color: $color-white;
+        display: inline-block;
+        font-family: $larsseit;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 0.79;
+        margin-bottom: 20px;
+        padding: 16px;
+        position: relative;
+        &::after {
+          bottom: -30px;
+          content: url('../images/selected-arrow.svg');
+          height: 30px;
+          left: calc(50% - 5px);
+          position: absolute;
+          width: auto;
+        }
+      }
+    }
+  }
+  .paragraph-alignment-left {
+    .paragraph-wrapper {
+      align-items: flex-start;
+      text-align: left;
+    }
+  }
+  .paragraph-alignment-center {
+    .paragraph-wrapper {
+      align-items: center;
+      margin: 0 auto;
+      text-align: center;
+      .hero-top-section {
+        flex-direction: column;
+        max-width: 600px;
+      }
+    }
+  }
+  .paragraph-alignment-right {
+    .paragraph-wrapper {
+      align-items: flex-end;
+      float: right;
+      text-align: right;
+    }
+  }
+
+
+.article-body-section {
+  .paragraph--type--hero {
+    .paragraph-wrapper {
+      .element-link {
+        &:first-child {
+          a {
+            font-family: $haarlemmer;
+            font-weight: normal;
+            font-size: 18px;
+            margin-bottom: 100px;
+            margin-top: 100px;
+            padding: 25px 60px 30px 25px;
+            text-decoration: none;
+            &:after {
+              bottom: 30px;
+              right: 30px;
+              left: auto;
+              transform: rotate(-90deg);
+              zoom: 80%;
+            }
+            @include breakpoint(md) {
+              font-size: 36px;
+              padding: 45px 80px 50px 45px;
+              &:after {
+                bottom: auto;
+                right: 40px;
+                zoom: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.paragraph--type--full-bleed-hero {
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0;
+  text-align: center;
+  @include breakpoint(sm) {
+    padding: 100px 0;
+  }
+
+  .hero-small-title {
+    color: $color-white;
+    font-family: $lemonde;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    @include breakpoint(sm) {
+      font-size: 24px;
+      padding: 0 130px;
+    }
+  }
+  .hero-large-title {
+    color: $color-white;
+    font-family: $lemonde;
+    font-size: 24px;
+    line-height: 1.2;
+    @include breakpoint(sm) {
+      font-size: 48px;
+      padding: 0 130px;
+    }
+  }
+}
+
+.hero2 {
+  &__image {
+    background-size: cover;
+    min-height: 400px;
+    padding: 50px;
+  }
+  &__heading {
+    color: $color-white;
+    font-family: $haarlemmer;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  &__title {
+    color: $color-white;
+    font-family: $haarlemmer;
+    font-size: 48px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  &__cta {
+    text-align: center;
+    a {
+      color: $color-white;
+      border-color: $color-orange;
+      &:active,
+      &:hover {
+        background: $color-orange;
+      }
+    }
+  }
+}

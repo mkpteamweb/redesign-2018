@@ -1,0 +1,183 @@
+/**
+ * Paragraph Article Heading
+ */
+
+.paragraph--type--article-heading {
+  display: table;
+  margin: 0;
+  padding-top: $margin-md;
+  width: 100%;
+
+  .paragraph-alignment-right {
+    display: flex;
+    flex-direction: column-reverse;
+    @include breakpoint(sm) {
+      flex-direction: row-reverse;
+    }
+  }
+
+  .paragraph-alignment-left {
+    display: flex;
+    flex-direction: column-reverse;
+    @include breakpoint(sm) {
+      flex-direction: row;
+    }
+    .paragraph-header-wrapper {
+      text-align: left;
+    }
+  }
+
+  .paragraph-alignment-center {
+    .paragraph-header-wrapper {
+      text-align: center;
+    }
+  }
+
+  .paragraph-header-wrapper {
+    flex: 1 1 0;
+    @media screen and (max-width: $screen-xs-max) {
+      padding: $margin-md;
+    }
+    @media screen and (min-width: $screen-sm-min) {
+      /*float: left;*/
+      /*max-width: 50%;*/
+      /*padding: $margin-md 0;*/
+    }
+
+    .element-title {
+      color: $paragraph-title-color;
+      font-family: $paragraph-title-font;
+      font-size: $paragraph-title-size;
+      font-weight: $paragraph-title-weight;
+      max-width: 420px;
+
+      @media screen and (min-width: $screen-sm-min) {
+        font-size: 28px;
+      }
+      @media screen and (min-width: $screen-md-min) {
+        font-size: 46px;
+        max-width: 420px;
+      }
+    }
+
+    .element-body {
+      color: $paragraph-body-color;
+      font-family: $paragraph-body-font;
+      font-size: $paragraph-body-size;
+      font-weight: $paragraph-body-weight;
+      line-height: 1.5;
+      max-width: 520px;
+      @media screen and (max-width: $screen-xs-max) {
+        margin: 0 auto;
+      }
+    }
+    .article-heading-credit {
+      color: $color-gunmetal;
+      font-family: $lemonde;
+      font-size: 12px;
+      font-style: italic;
+      @media screen and (min-width: $screen-sm-min) {
+        font-size: 16px;
+        margin-top: $margin-md;
+        max-width: 400px;
+      }
+    }
+
+    .element-date {
+      /*border-bottom: 2px solid rgba(155, 171, 172, 0.3);*/
+      color: #747474;
+      font-family: $lemonde;
+      font-size: 13px;
+      font-style: italic;
+      font-weight: normal;
+      line-height: 1.55;
+      margin-top: $margin-xs;
+      max-width: 400px;
+      padding-bottom: 15px;
+    }
+    .article-heading-link {
+      margin-top: 15px;
+      a {
+        @extend .button;
+        @extend .button--blue;
+      }
+    }
+  }
+
+  .paragraph-image-wrapper {
+    padding: 30px 0;
+    text-align: center;
+
+    @media screen and (max-width: $screen-xs-max) {
+      margin-bottom: 30px;
+
+      img.img-responsive {
+        width: 100%;
+      }
+    }
+    @include breakpoint(sm) {
+      max-width: 50%;
+    }
+    @include breakpoint(lg) {
+      max-width: 100%;
+    }
+
+    .element-caption {
+      color: $color-gunmetal;
+      font-family: $lemonde;
+      font-size: 12px;
+      font-style: italic;
+      @media screen and (min-width: $screen-sm-min) {
+        padding: $margin-sm $margin-md;
+        text-align: left;
+      }
+    }
+  }
+
+
+}
+.biography-heading {
+}
+
+.biography-spotlight {
+
+}
+
+.heading-picture-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.field--name-field-ia1-article-body {
+  // margin: 0 $margin-sm;
+}
+
+.paragraph--type--body-full-copy {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 15px;
+
+  @media screen and (min-width: $screen-sm-min) {
+    padding: $margin-md 0;
+  }
+}
+
+.biography-main-content {
+  clear: both;
+}
+
+.field--name-field-social-toolbar {
+  .field--item {
+    display: inline-block;
+    .cfr-icon {
+      cursor: pointer;
+      margin: 2px 10px;
+    }
+  }
+}
+
+.article-heading-social {
+  padding-top: $margin-sm;
+}
+

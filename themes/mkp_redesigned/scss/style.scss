@@ -1,0 +1,33 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+/* Utitilies for Styles */
+@import 'utilities/variables';
+@import 'utilities/breakpoints';
+@import 'utilities/mixins';
+
+/* Components */
+
+/* Paragraph Styles */
+@import 'component/alert_bar';
+@import 'component/hero_section';
+@import 'component/landing_pages';
+@import 'component/paragraph_hero';
+@import 'component/header';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: $opensans;
+  font-size: 13.5px;
+  line-height: 170%;
+  color: $color-dark-grey;
+}

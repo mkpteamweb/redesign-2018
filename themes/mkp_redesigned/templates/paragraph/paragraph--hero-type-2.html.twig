@@ -1,0 +1,9 @@
+<div class="hero2">
+  <div class="container hero2__container">
+    <div class="hero2__image" {% if image %} style="background-image:url('{{ image }}')"{% endif %}>
+      <div class="hero2__heading">{{ heading }}</div>
+      <div class="hero2__title">{{ title }}</div>
+      <div class="hero2__cta"><a href="{{ cta.link }}" class="button">{{cta.title}}</a></div>
+    </div>
+  </div>
+</div>
